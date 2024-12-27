@@ -15,7 +15,7 @@ function App() {
 
   const handleFormSubmit = (e) =>{
     e.preventDefault();
-    console.log(user);
+    alert(`Welcome ${user.userName}`);
   }
 
   return (
